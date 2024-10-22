@@ -1,0 +1,114 @@
+@charset "ufs=8";
+
+#footerup {
+    width: 100%;
+    height: 50px;
+    margin: 0 auto;
+    display: flex;
+    border-top:  1px solid #d1d1d1;
+    border-bottom: 1px solid #d1d1d1;
+}
+
+#footerup ul {
+    list-style: none;
+    position: relative;
+    display: flex;
+    width: 1100px;
+    margin: 0 auto;
+}
+
+#footerup ul li {
+margin-left: 15px;
+display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+#footerup ul li a {
+    text-decoration: none;
+}
+
+.fspan {
+    font-size: 13px;
+    color: black;
+}
+
+
+
+footer {
+    width: 1100px;
+    height: 200px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.fs1 {
+    font-weight: bold;
+    font-size: 18px;
+    color: black;
+    margin-left: 40px;
+    margin-top: 50px;
+    
+}
+
+.fs2 ul {
+    list-style: none;
+    position: relative;
+    display: flex;
+}
+
+.fs2 ul li {
+    font-size: 13px;
+    margin-right: 10px;
+}
+
+.fs3 {
+    font-size: 13px;
+    color: #d1d1d1;
+    margin-left: 40px;
+}
+
+.fs4 {
+    font-size: 13px;
+    margin-right: 10px;
+}
+
+.fs1, .fs2, .fs3 {
+    line-height: 0.3; /* 줄 간격 조정 */
+}
+
+#footerleft {
+    width: 700px;
+    height: 200px;
+}
+#footerright {
+    width: 400px;
+    height: 200px;
+}
+
+.fb1 {
+    margin-left: 40px;
+    border: 1px solid #d1d1d1;
+    border-radius: 5px;
+    width: 170px;
+    height: 40px;
+    background-color: white;
+}
+
+.fb2 {
+    border: 1px solid #d1d1d1;
+    border-radius: 5px;
+    width: 170px;
+    height: 40px;
+    background-color: white;
+}
+
+.fb3 {
+    margin-left: 40px;
+    border: 1px solid #d1d1d1;
+    border-radius: 5px;
+    width: 345px;
+    height: 40px;
+    background-color: white;
+    margin-top: 10px;
+}

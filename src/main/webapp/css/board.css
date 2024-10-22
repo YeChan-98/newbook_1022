@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+ #wrap {
+      width: 1000px; 
+    	height: 1000px;
+       margin: 0 auto;
+      }
+
+#wrapboard {
+    width: 800px; 
+    height: 800px;
+    margin:0;
+    margin-left : auto;
+    margin-right : auto;
+
+}
+
+#wrapview {
+      width: 800px; 
+    	height: 700px;
+       margin: 0 auto;
+      }
+     
+     
+h1 {color: black; }
+      table {  width: 100% !important;}
+      table {width: 80%; border-collapse: collapse; font-size: 12px; line-height: 24px;}
+      table td,th {border: #d3d3d3 solid 1px;  padding: 5px; }
+      
+      th {background: #33afe9;}
+      a {text-decoration: none; color: black; }
+      a:HOVER {text-decoration: underline; color: skyblue; }
+  
+.write {
+	width: 80px;
+	height: 30px;
+	background-color: #33afe9;
+	float: right;
+	border: 2px solid  #33afe9;
+	border-radius: 15px;
+	margin-top: -40px;
+	margin-left: 900px;
+	position: absolute;	
+	text-align: center;
+	line-height: 30px;
+}
+
+.write a {
+	color: white;	
+}    
+      
+.buttonst input{
+	width: 80px;
+	height: 30px;
+	background-color: white;
+	float: right;
+	border: 2px solid  #33afe9;
+	border-radius: 5px;		
+	text-align: center;
+	line-height: 30px;	
+}
+
+.buttonst input:hover {
+    background-color: #33afe9; 
+    border-radius: 5px; 
+}
+
+.buttonst2 input{
+	width: 95px;
+	height: 30px;
+	background-color: white;
+	float: right;
+	border: 2px solid  #33afe9;
+	border-radius: 5px;		
+	text-align: center;
+	line-height: 30px;	
+}
+
+.buttonst2 input:hover {
+    background-color: #33afe9; 
+    border-radius: 5px; 
+}

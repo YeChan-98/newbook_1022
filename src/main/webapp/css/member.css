@@ -1,0 +1,235 @@
+@charset "UTF-8";
+
+#loginbox {
+	width: 500px;
+	height: 600px;
+	margin: 0 auto;
+}
+
+#loginjsp {
+	width: 350px;
+	height: 300px;
+	margin: 0 auto;
+	margin-top: 100px;
+	border: 3px solid #33afe9;
+	border-radius: 15px;
+	
+}
+
+#joinbox {
+	width: 500px;
+	height: 700px;
+	margin: 0 auto;
+}
+
+#joinjsp {
+	width: 600px;
+	height: 600px;
+	margin: 0 auto;
+	margin-top: 100px;
+	border: 3px solid #33afe9;
+	border-radius: 15px;
+}
+
+#detailbox {
+	width: 500px;
+	height: 600px;
+	margin: 0 auto;
+}
+
+#detailjsp {
+	width: 400px;
+	height: 400px;
+	margin: 0 auto;
+	margin-top: 100px;
+	border: 3px solid #33afe9;
+	border-radius: 15px;
+	
+}
+
+.joinb input{
+	width: 80px;
+	height: 30px;
+	background-color: white;
+	float: right;
+	border: 2px solid  #33afe9;
+	border-radius: 5px;
+	margin-top: -15px;
+	margin-left: 40px;
+	position: absolute;	
+	text-align: center;
+	line-height: 30px;	
+}
+
+.joinb input:hover {
+    background-color: #33afe9; 
+    border-radius: 5px; 
+}
+
+.joinb1 input{
+	width: 80px;
+	height: 30px;
+	background-color: white;
+	float: right;
+	border: 2px solid  #33afe9;
+	border-radius: 5px;
+	margin-top: 20px;
+	margin-left: -80px;
+	position: absolute;	
+	text-align: center;
+	line-height: 30px;	
+}
+
+.joinb1 input:hover {
+    background-color: #33afe9; 
+    border-radius: 5px; 
+}
+
+.joinb2 input{
+	width: 80px;
+	height: 30px;
+	background-color: white;
+	float: right;
+	border: 2px solid  #33afe9;
+	border-radius: 5px;
+	margin-top: 20px;
+	margin-left: 40px;
+	position: absolute;	
+	text-align: center;
+	line-height: 30px;	
+}
+
+.joinb2 input:hover {
+    background-color: #33afe9; 
+    border-radius: 5px; 
+}
+
+.loginin {
+	width:190px;
+	height: 50px;
+	float: left;
+	margin-left: 10px;
+}
+
+.loginin input {
+    width: 100%; 
+    padding: 10px; 
+    border: none; 
+    border: 2px solid #33afe9; 
+    border-radius: 5px; 
+    font-size: 16px;
+    transition: border-color 0.3s; 
+    outline: none;
+}
+
+.loginon {
+    width: 100px;
+    height: 100px;
+    background-color: deeppink;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    float: right;
+    margin-top: -55px;
+    margin-right: 10px;
+}
+
+.loginon button {
+    width: 100%; 
+    height: 100%; 
+    background-color: transparent; 
+    color: white; 
+    font-size: 16px; 
+    border: none; 
+    outline: none; 
+    cursor: pointer; 
+    appearance: none; 
+    padding: 0; 
+    margin: 0; 
+}
+
+.loginon button:hover {
+    background-color: pink;
+	border-radius: 5px; 
+}
+
+.loginon button:focus {
+    outline: none; 
+}
+
+.loginup {
+    width: 325px;
+    height: 50px;
+    background-color: white;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    float: right;    
+    border: 2px solid lightgrey;
+    margin-right: 10px;
+}
+
+.loginup a{
+    width: 100%; 
+    height: 100%; 
+    background-color: transparent; 
+    color: rgb(64, 128, 128); 
+    font-size: 16px; 
+    border: none; 
+    outline: none; 
+    cursor: pointer; 
+    appearance: none; 
+    padding: 0; 
+    margin: 0 auto; 
+    text-decoration: none ;
+    line-height: 50px;
+}
+
+.loginup a:hover {
+    background-color: #33afe9; 
+    border-radius: 5px; 
+}
+
+.loginup button a:focus {
+    outline: none; 
+}
+
+.buttonst input{
+	width: 90px;
+	height: 30px;
+	background-color: white;
+	float: right;
+	border: 2px solid  #33afe9;
+	border-radius: 5px;		
+	text-align: center;
+	line-height: 30px;	
+}
+
+.buttonst input:hover {
+    background-color: #33afe9; 
+    border-radius: 5px; 
+}
+
+.buttonst2 input{
+	width: 90px;
+	height: 30px;
+	background-color: white;
+	float: right;
+	border: 2px solid  #33afe9;
+	border-radius: 5px;		
+	text-align: center;
+	line-height: 30px;	
+	margin-left: -45px;
+	position: absolute;
+}
+
+.buttonst2 input:hover {
+    background-color: #33afe9; 
+    border-radius: 5px; 
+}
